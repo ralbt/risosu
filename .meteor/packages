@@ -10,4 +10,5 @@ insecure
 iron:router
 twbs:bootstrap
 aldeed:collection2
-meteorhacks:kadira
+aldeed:autoform
+mrt:flash-messages
