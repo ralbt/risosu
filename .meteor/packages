@@ -12,3 +12,4 @@ twbs:bootstrap
 aldeed:collection2
 aldeed:autoform
 mrt:flash-messages
+dburles:collection-helpers

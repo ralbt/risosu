@@ -9,3 +9,9 @@ AutoForm.addHooks(['insertResourceForm'], {
     Router.go("/");
   }
 });
+
+Template.listResources.helpers({
+  resources: function(){
+    return Resources.find({});
+  }
+});

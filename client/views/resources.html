@@ -1,4 +1,18 @@
-<template name="InsertResource">
+<template name="insertResource">
   <h1> Add Resource</h1>
   {{> quickForm collection="Resources" id="insertResourceForm" type="insert"}}
+</template>
+
+<template name="listResources">
+  <h1>Resources</h1>
+  {{#each resources }}
+    {{> resource }}
+  {{/each }}
+</template>
+
+<template name="resource">
+  <h3>{{title}}</h3>
+  <ul>
+    <li>{{tags}}</li>
+  </ul>
 </template>
